@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: darkslategray;
+            font-size: 72px;
+            color: antiquewhite;
+        }
+
+        #block {
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            /* Center vertically and horizontally */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
-    Hello, please stand by
+    <div id="block">
+        <div class="child">Please stand by</div>
+    </div>
 </body>
 
 </html>
