@@ -1,0 +1,56 @@
+body {
+    background-color: darkslategray;
+    color: antiquewhite;
+    font-family: 'Alegreya';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#menu,
+#content {
+    border: 0px solid red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+#menu {
+    left: 0;
+    width: 10em;
+}
+
+#content {
+    left: 21em;
+    right: 0;
+}
+
+#menu a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: coral;
+}
+
+#menu a:active {
+    color: cornflowerblue;
+}
+
+#menu {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

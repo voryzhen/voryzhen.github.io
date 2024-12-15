@@ -5,41 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>SEF</title>
-    <style>
-        body {
-            background-color: darkslategray;
-            font-size: 72px;
-            color: antiquewhite;
-            font-family: 'Alegreya';
-        }
-
-        #block {
-            position: absolute;
-
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-
-            /* Center vertically and horizontally */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .child {
-            text-align: center;
-            user-select: none;
-        }
-    </style>
 </head>
 
 <body>
-    <div id="block">
-        <div class="child">Please<br/>stand by</div>
+    <div id="menu">
+        <a href="/" onclick="route()">Home</a>
+        <a href="/posts" onclick="route()">Posts</a>
+        <a href="/about" onclick="route()">About</a>
     </div>
+
+    <div id="content"></div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
-
