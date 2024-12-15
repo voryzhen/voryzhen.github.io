@@ -15,16 +15,17 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
+    left: 0;
 }
 
 #menu {
-    left: 0;
     width: 10em;
 }
 
 #content {
-    left: 21em;
+    padding: 0 20em;
     right: 0;
+    text-align: justify;
 }
 
 #menu a {
